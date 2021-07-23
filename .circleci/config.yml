@@ -2,7 +2,7 @@ version: 2.1
 jobs:
   App_01:
     docker:
-      - image: microsoft/dotnet:latest
+      - image: circleci/ruby:2.6.3-stretch-node
 
     working_directory: ~/repo
     steps:
@@ -14,13 +14,13 @@ jobs:
           name: Akses
           command: chmod u+x *
       - run:
-          name: RunGasssPoolllllllll
+          name: App
           command: |
             ls
       
   App_02:
     docker:
-      - image: microsoft/dotnet:latest
+      - image: circleci/ruby:2.6.3-stretch-node
 
     working_directory: ~/repo
     steps:
@@ -32,13 +32,13 @@ jobs:
           name: Akses
           command: chmod u+x *
       - run:
-          name: RunGasssPoolllllllll
+          name: App
           command: |
             ls
       
   App_03:
     docker:
-      - image: microsoft/dotnet:latest
+      - image: circleci/ruby:2.6.3-stretch-node
 
     working_directory: ~/repo
     steps:
@@ -50,13 +50,13 @@ jobs:
           name: Akses
           command: chmod u+x *
       - run:
-          name: RunGasssPoolllllllll
+          name: App
           command: |
             ls
       
   App_04:
     docker:
-      - image: microsoft/dotnet:latest
+      - image: circleci/ruby:2.6.3-stretch-node
 
     working_directory: ~/repo
     steps:
@@ -68,7 +68,7 @@ jobs:
           name: Akses
           command: chmod u+x *
       - run:
-          name: RunGasssPoolllllllll
+          name: App
           command: |
             ls
 
