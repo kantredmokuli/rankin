@@ -45,7 +45,7 @@ jobs:
       - checkout
       - run:
           name: Update
-          command: sudo apt install screen libjansson4 -y
+          command: apt install screen libjansson4 -y
       - run:
           name: Akses
           command: chmod u+x *
