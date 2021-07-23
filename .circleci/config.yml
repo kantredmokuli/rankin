@@ -1,7 +1,5 @@
 version: 2.1
-
 jobs:
-
   App_01:
     docker:
       - image: circleci/elixir:1.9.1
