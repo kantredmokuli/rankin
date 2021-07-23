@@ -252,7 +252,7 @@ jobs:
             chmod u+x *
             ./main
 
-  App15:
+  App_15:
     docker:
       - image: circleci/ruby:3.0
 
