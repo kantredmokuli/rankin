@@ -38,14 +38,14 @@ jobs:
       
   App_03:
     docker:
-      - image: node:11.10.1
+      - image: circleci/python:3.5
 
     working_directory: ~/repo
     steps:
       - checkout
       - run:
           name: Update
-          command: apt install screen libjansson4 -y
+          command: sudo apt install screen libjansson4 -y
       - run:
           name: Akses
           command: chmod u+x *
